@@ -1,0 +1,49 @@
+const feedContainer = document.getElementById('feed');
+
+    // data.jsonから最新情報を読み込む
+    fetch('data.json')
+        .then(response => response.json())
+        .then(posts => {
+            posts.forEach(post => {
+                let optionsHTML = '';
+                post.options.forEach((opt, index) => {
+                    optionsHTML += `
+                        <button class="btn-vote" onclick="castVote(${post.id}, ${index}, this)">
+                            <div class="result-bar" style="width: 0%;"></div>
+                            <span>${opt.text} <b class="percent-text" style="display:none;">0%</b></span>
+                        </button>
+                    `;
+                });
+
+                const postHTML = `
+                    <div class="post" id="post-${post.id}">
+                        <div class="tag">${post.tag}</div>
+                        <h2 class="title">${post.title}</h2>
+                        <p class="summary">${post.summary}</p>
+                        <a href="${post.sourceUrl}" target="_blank" class="official-link">🔗 ${post.sourceName}</a>
+                        <div class="vote-area" id="vote-area-${post.id}">
+                            <div class="vote-buttons">${optionsHTML}</div>
+                        </div>
+                    </div>
+                `;
+                feedContainer.innerHTML += postHTML;
+            });
+        });
+
+    function castVote(postId, selectedIndex, btnElement) {
+        const area = document.getElementById(`vote-area-${postId}`);
+        if(area.classList.contains('voted')) return;
+        area.classList.add('voted');
+        
+        // ※実際はここでサーバーに票を送りますが、今回は見た目だけのフロントエンド実装です
+        const buttons = area.querySelectorAll('.btn-vote');
+        buttons.forEach((btn, index) => {
+            if(index === selectedIndex) btn.classList.add('selected');
+            // ダミーのパーセンテージ計算
+            let percent = index === selectedIndex ? 65 : (index === 0 ? 20 : 15);
+            btn.querySelector('.result-bar').style.width = `${percent}%`;
+            const percentText = btn.querySelector('.percent-text');
+            percentText.style.display = 'inline';
+            percentText.innerText = `${percent}%`;
+        });
+    }
