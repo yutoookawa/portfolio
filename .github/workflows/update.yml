@@ -1,0 +1,37 @@
+name: Daily AI Update
+
+on:
+  schedule:
+    - cron: '0 15 * * *' # 毎日日本時間深夜0時に実行
+  workflow_dispatch: # 手動で実行できるボタンも用意
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: リポジトリのコードを取得
+        uses: actions/checkout@v3
+
+      - name: Pythonの準備
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: 必要なライブラリのインストール
+        run: pip install openai
+
+      - name: AI自動更新スクリプトの実行
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python update_feed.py
+
+      - name: 更新されたデータをGitHubに保存（コミット）
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git commit -m "🤖 AIが最新の行政ニュースを自動更新しました" || echo "変更がありません"
+          git push
