@@ -51,11 +51,13 @@
 
 <script>
     const feedContainer = document.getElementById('feed');
+    let appPosts = []; // データを覚えておくための箱を用意します
 
     // data.jsonから最新情報を読み込む
     fetch('data.json')
         .then(response => response.json())
         .then(posts => {
+            appPosts = posts; // 読み込んだデータを箱に保存します
             posts.forEach(post => {
                 let optionsHTML = '';
                 post.options.forEach((opt, index) => {
@@ -84,15 +86,26 @@
 
     function castVote(postId, selectedIndex, btnElement) {
         const area = document.getElementById(`vote-area-${postId}`);
-        if(area.classList.contains('voted')) return;
+        if(area.classList.contains('voted')) return; // 既に投票済みの場合は何もしない
         area.classList.add('voted');
         
-        // ※実際はここでサーバーに票を送りますが、今回は見た目だけのフロントエンド実装です
+        // 対象の投稿データを見つける
+        const post = appPosts.find(p => p.id === postId);
+        
+        // 自分の1票を追加する
+        post.options[selectedIndex].votes += 1;
+        
+        // 全体の票数を合計する
+        const totalVotes = post.options.reduce((sum, opt) => sum + opt.votes, 0);
+        
         const buttons = area.querySelectorAll('.btn-vote');
         buttons.forEach((btn, index) => {
             if(index === selectedIndex) btn.classList.add('selected');
-            // ダミーのパーセンテージ計算
-            let percent = index === selectedIndex ? 65 : (index === 0 ? 20 : 15);
+            
+            // 正しいパーセンテージを計算する（割り算をして四捨五入）
+            const percent = Math.round((post.options[index].votes / totalVotes) * 100);
+            
+            // ゲージの長さと数字のテキストに反映
             btn.querySelector('.result-bar').style.width = `${percent}%`;
             const percentText = btn.querySelector('.percent-text');
             percentText.style.display = 'inline';
