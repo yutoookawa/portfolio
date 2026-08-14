@@ -1,5 +1,27 @@
 [
   {
+    "id": 10,
+    "tag": "🏛️ 行政・社会",
+    "title": "キャリアサポートをもっと身近に！",
+    "summary": "第40回キャリアコンサルタントの講習会が開催され、更新やスキル向上に役立つ情報が共有されるよ！",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_75340.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 9,
     "tag": "🏛️ 行政・社会",
     "title": "コートジボワール産ごまの安全チェック実施中！",
@@ -27,28 +49,6 @@
     "title": "労働基準監督官を目指そう！",
     "summary": "労働基準監督官の採用試験情報を公開中！興味がある人はぜひチェックして、自分の未来に活かそう！",
     "sourceUrl": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/kantokukan.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "tag": "🏛️ 行政・社会",
-    "title": "医療機器や診断薬の未来、話し合おう！",
-    "summary": "厚生労働省が医療機器や体外診断薬について話し合う会議を開くよ。新しい技術や安全性についての情報を集めるんだ！",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_75394.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
