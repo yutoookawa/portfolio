@@ -1,5 +1,27 @@
 [
   {
+    "id": 11,
+    "tag": "🏛️ 行政・社会",
+    "title": "キャリア相談のプロを目指そう！",
+    "summary": "キャリアコンサルタントのスキルを更新する講習会が開催されます。新しい知識をゲットして、より良い相談ができるようになろう！",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_75340.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 10,
     "tag": "🏛️ 行政・社会",
     "title": "キャリアサポートをもっと身近に！",
@@ -27,28 +49,6 @@
     "title": "コートジボワール産ごまの安全チェック実施中！",
     "summary": "輸入されたコートジボワール産ごまの種子に対して、厳しい検査を行うことになったよ。安全を守るために大切なステップだね！",
     "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_75455.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "tag": "🏛️ 行政・社会",
-    "title": "労働基準監督官を目指そう！",
-    "summary": "労働基準監督官の採用試験情報を公開中！興味がある人はぜひチェックして、自分の未来に活かそう！",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/kantokukan.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
