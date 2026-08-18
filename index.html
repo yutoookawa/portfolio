@@ -40,6 +40,10 @@
         .actions { display: flex; justify-content: space-between; padding-top: 10px; color: #657786; font-size: 0.9em; }
         .action-btn { cursor: pointer; user-select: none; }
         .action-btn.saved { color: #e0245e; font-weight: bold; }
+        
+        /* ★追加：アーカイブボタンのデザイン */
+        .btn-archive { width: 100%; padding: 15px; border: none; background-color: #e8f5fd; color: #0055a4; font-weight: bold; font-size: 1em; cursor: pointer; transition: 0.2s; border-bottom: 1px solid #e6ecf0; }
+        .btn-archive:hover { background-color: #d1ecfc; }
     </style>
 </head>
 <body>
@@ -51,66 +55,105 @@
 
 <script>
     const feedContainer = document.getElementById('feed');
-    let appPosts = []; // データを覚えておくための箱を用意します
+    let appPosts = []; 
 
-    // data.jsonから最新情報を読み込む
     fetch('data.json')
         .then(response => response.json())
         .then(posts => {
-            appPosts = posts; // 読み込んだデータを箱に保存します
-            posts.forEach(post => {
-                let optionsHTML = '';
-                post.options.forEach((opt, index) => {
-                    optionsHTML += `
-                        <button class="btn-vote" onclick="castVote(${post.id}, ${index}, this)">
-                            <div class="result-bar" style="width: 0%;"></div>
-                            <span>${opt.text} <b class="percent-text" style="display:none;">0%</b></span>
-                        </button>
-                    `;
-                });
+            appPosts = posts; 
+            
+            // 最新の3件と、それより古い「過去の投稿」に分ける
+            const latestPosts = posts.slice(0, 3);
+            const pastPosts = posts.slice(3);
 
-                const postHTML = `
-                    <div class="post" id="post-${post.id}">
-                        <div class="tag">${post.tag}</div>
-                        <h2 class="title">${post.title}</h2>
-                        <p class="summary">${post.summary}</p>
-                        <a href="${post.sourceUrl}" target="_blank" class="official-link">🔗 ${post.sourceName}</a>
-                        <div class="vote-area" id="vote-area-${post.id}">
-                            <div class="vote-buttons">${optionsHTML}</div>
-                        </div>
-                    </div>
-                `;
-                feedContainer.innerHTML += postHTML;
+            // 1. 最新の3件をそのまま表示
+            latestPosts.forEach(post => {
+                feedContainer.innerHTML += createPostHTML(post);
             });
+
+            // 2. 過去の投稿（4件目以降）がある場合、ボタンと隠しエリアを作る
+            if (pastPosts.length > 0) {
+                // ボタンの作成
+                const archiveBtn = document.createElement('button');
+                archiveBtn.className = 'btn-archive';
+                archiveBtn.innerText = '過去の記録を開く 🔽';
+                feedContainer.appendChild(archiveBtn);
+
+                // 過去の投稿を入れる隠しエリア
+                const pastContainer = document.createElement('div');
+                pastContainer.style.display = 'none'; // 最初は見えないように隠す
+                
+                pastPosts.forEach(post => {
+                    pastContainer.innerHTML += createPostHTML(post);
+                });
+                feedContainer.appendChild(pastContainer);
+
+                // ボタンを押した時の動き（隠したエリアを表示して、ボタン自体は消す）
+                archiveBtn.addEventListener('click', function() {
+                    pastContainer.style.display = 'block';
+                    this.style.display = 'none';
+                });
+            }
         });
 
+    // 投稿のHTMLを作る共通の仕組み
+    function createPostHTML(post) {
+        let optionsHTML = '';
+        post.options.forEach((opt, index) => {
+            optionsHTML += `
+                <button class="btn-vote" onclick="castVote(${post.id}, ${index}, this)">
+                    <div class="result-bar" style="width: 0%;"></div>
+                    <span>${opt.text} <b class="percent-text" style="display:none;">0%</b></span>
+                </button>
+            `;
+        });
+
+        return `
+            <div class="post" id="post-${post.id}">
+                <div class="tag">${post.tag}</div>
+                <h2 class="title">${post.title}</h2>
+                <p class="summary">${post.summary}</p>
+                <a href="${post.sourceUrl}" target="_blank" class="official-link">🔗 ${post.sourceName}</a>
+                <div class="vote-area" id="vote-area-${post.id}">
+                    <div class="vote-buttons">${optionsHTML}</div>
+                </div>
+                <div class="actions">
+                    <div class="action-btn" id="save-${post.id}" onclick="toggleSave(${post.id})">♡ 保存する</div>
+                </div>
+            </div>
+        `;
+    }
+
+    // 投票の計算
     function castVote(postId, selectedIndex, btnElement) {
         const area = document.getElementById(`vote-area-${postId}`);
-        if(area.classList.contains('voted')) return; // 既に投票済みの場合は何もしない
+        if(area.classList.contains('voted')) return;
         area.classList.add('voted');
         
-        // 対象の投稿データを見つける
         const post = appPosts.find(p => p.id === postId);
-        
-        // 自分の1票を追加する
         post.options[selectedIndex].votes += 1;
         
-        // 全体の票数を合計する
         const totalVotes = post.options.reduce((sum, opt) => sum + opt.votes, 0);
         
         const buttons = area.querySelectorAll('.btn-vote');
         buttons.forEach((btn, index) => {
             if(index === selectedIndex) btn.classList.add('selected');
-            
-            // 正しいパーセンテージを計算する（割り算をして四捨五入）
             const percent = Math.round((post.options[index].votes / totalVotes) * 100);
-            
-            // ゲージの長さと数字のテキストに反映
             btn.querySelector('.result-bar').style.width = `${percent}%`;
             const percentText = btn.querySelector('.percent-text');
             percentText.style.display = 'inline';
             percentText.innerText = `${percent}%`;
         });
+    }
+
+    // 保存機能
+    function toggleSave(postId) {
+        const btn = document.getElementById(`save-${postId}`);
+        if(btn.classList.contains('saved')){
+            btn.classList.remove('saved'); btn.innerText = '♡ 保存する';
+        } else {
+            btn.classList.add('saved'); btn.innerText = '♥ 保存済み';
+        }
     }
 </script>
 
