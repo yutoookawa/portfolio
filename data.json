@@ -1,5 +1,27 @@
 [
   {
+    "id": 4,
+    "tag": "🏛️ 行政・社会",
+    "title": "新しい危険ドラッグが禁止に！",
+    "summary": "厚生労働省が4つの危険ドラッグ成分を新しく指定薬物に指定しました。これで若者たちの健康を守ります。",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/houdou/0000212707_00056.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 3,
     "tag": "🚦 交通ルール",
     "title": "2024年11月から「自転車の青切符（反則金）」導入へ",
@@ -7,9 +29,18 @@
     "sourceUrl": "https://www.npa.go.jp/",
     "sourceName": "警察庁 公式サイトで詳細を見る",
     "options": [
-      { "text": "賛成（安全第一）", "votes": 520 },
-      { "text": "反対（厳しすぎる）", "votes": 180 },
-      { "text": "様子見", "votes": 95 }
+      {
+        "text": "賛成（安全第一）",
+        "votes": 520
+      },
+      {
+        "text": "反対（厳しすぎる）",
+        "votes": 180
+      },
+      {
+        "text": "様子見",
+        "votes": 95
+      }
     ]
   },
   {
@@ -20,9 +51,18 @@
     "sourceUrl": "https://www.mof.go.jp/",
     "sourceName": "財務省 公式サイトで詳細を見る",
     "options": [
-      { "text": "希望する", "votes": 850 },
-      { "text": "現状維持でよい", "votes": 120 },
-      { "text": "別の対策が良い", "votes": 210 }
+      {
+        "text": "希望する",
+        "votes": 850
+      },
+      {
+        "text": "現状維持でよい",
+        "votes": 120
+      },
+      {
+        "text": "別の対策が良い",
+        "votes": 210
+      }
     ]
   },
   {
@@ -33,9 +73,18 @@
     "sourceUrl": "https://www.soumu.go.jp/",
     "sourceName": "総務省 公式サイトで詳細を見る",
     "options": [
-      { "text": "優先すべき", "votes": 640 },
-      { "text": "全世代平等に", "votes": 310 },
-      { "text": "分からない", "votes": 150 }
+      {
+        "text": "優先すべき",
+        "votes": 640
+      },
+      {
+        "text": "全世代平等に",
+        "votes": 310
+      },
+      {
+        "text": "分からない",
+        "votes": 150
+      }
     ]
   }
 ]
