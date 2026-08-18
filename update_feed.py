@@ -48,14 +48,14 @@ completion = client.chat.completions.create(
 
 new_post = json.loads(completion.choices[0].message.content)
 
-# 3. 既存のデータを読み込み、一番上に追加し、古いものを消す（最新3件のみ保持）
+# 3. 既存のデータを読み込み、一番上に追加し、古いものを消す（最新50件のみ保持）
 with open('data.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # IDを重複しないように設定
 new_post['id'] = data[0]['id'] + 1 if data else 1
 data.insert(0, new_post)
-data = data[:3] # 最新の3件だけ残す
+data = data[:50] # ★ここを「3」から「50」に変更しました！
 
 # 4. JSONを上書き保存
 with open('data.json', 'w', encoding='utf-8') as f:
