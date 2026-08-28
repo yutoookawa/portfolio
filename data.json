@@ -1,5 +1,27 @@
 [
   {
+    "id": 13,
+    "tag": "🏛️ 行政・社会",
+    "title": "医療費の動向をチェック！令和7年度版",
+    "summary": "令和7年度の調剤医療費の最新情報が発表されました。健康保険の使い方や医療費の支出の傾向について知ろう！",
+    "sourceUrl": "https://www.mhlw.go.jp/topics/medias/year/25/gaiyou.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 12,
     "tag": "🏛️ 行政・社会",
     "title": "就職活動の最新ニュース！",
