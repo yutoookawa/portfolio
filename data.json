@@ -1,5 +1,27 @@
 [
   {
+    "id": 24,
+    "tag": "🏛️ 行政・社会",
+    "title": "2026年の日本の人口動向をチェックしよう！",
+    "summary": "2026年4月の日本の人口や出生、死亡の統計が発表されました。若者にとっても影響大！",
+    "sourceUrl": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/geppo/m2026/04.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 23,
     "tag": "🏛️ 行政・社会",
     "title": "上野大臣が記者会見！",
