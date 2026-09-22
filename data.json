@@ -1,5 +1,27 @@
 [
   {
+    "id": 38,
+    "tag": "🏛️ 行政・社会",
+    "title": "医薬情報の世界をドラマで学ぼう！",
+    "summary": "WOWOWが新ドラマ「MR -医薬情報担当者-」とコラボ！医療の重要性や仕事を楽しく知れるチャンス！",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76340.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 37,
     "tag": "🏛️ 行政・社会",
     "title": "医療とドラマのコラボ！",
