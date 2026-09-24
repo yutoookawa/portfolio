@@ -1,5 +1,27 @@
 [
   {
+    "id": 40,
+    "tag": "🏛️ 行政・社会",
+    "title": "UHCHの決め事会議が開催！",
+    "summary": "UHCHナレッジハブの第四回調整委員会が開かれ、健康や福祉の向上に向けた新しい計画が話し合われました。",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76368.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 39,
     "tag": "🏛️ 行政・社会",
     "title": "医薬情報のドラマ、WOWOWで放送決定！",
