@@ -1,5 +1,27 @@
 [
   {
+    "id": 42,
+    "tag": "🏛️ 行政・社会",
+    "title": "国民健康保険の実態を知ろう！",
+    "summary": "国民健康保険の現状を調べる新しいシステムができました。みんなの健康を守るための大事な情報です！",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/iryouhoken/database/seido/kokuho_jittai_system.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 41,
     "tag": "🏛️ 行政・社会",
     "title": "国民健康保険の新しい調査システム登場！",
