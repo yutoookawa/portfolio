@@ -1,5 +1,27 @@
 [
   {
+    "id": 45,
+    "tag": "🏛️ 行政・社会",
+    "title": "安全第一！労働災害を減らそう",
+    "summary": "最近の労働災害の状況が報告されているよ。安全対策を強化して、みんなが安心して働ける環境を作ろう！",
+    "sourceUrl": "https://www.mhlw.go.jp/bunya/roudoukijun/anzeneisei11/rousai-hassei/index.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 44,
     "tag": "🏛️ 行政・社会",
     "title": "働くみんなを守る！最新の労災保険が決まったよ",
