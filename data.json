@@ -1,5 +1,27 @@
 [
   {
+    "id": 46,
+    "tag": "🏛️ 行政・社会",
+    "title": "離職率や手数料がわかる！地域別の仕事情報",
+    "summary": "地域ごとにどんな職業の手数料が高いか、離職率はどうなっているかがわかるデータが発表されました。実際の職業選びに役立つ情報です！",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/36163_00001.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 45,
     "tag": "🏛️ 行政・社会",
     "title": "安全第一！労働災害を減らそう",
