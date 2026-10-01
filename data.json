@@ -1,5 +1,27 @@
 [
   {
+    "id": 47,
+    "tag": "🏛️ 行政・社会",
+    "title": "説明会情報が新しくなったよ！",
+    "summary": "総合職（数理・デジタル系）の説明会情報が更新されました。詳細は公式サイトでチェックしよう！",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/suuri.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 46,
     "tag": "🏛️ 行政・社会",
     "title": "離職率や手数料がわかる！地域別の仕事情報",
