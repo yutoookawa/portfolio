@@ -1,5 +1,27 @@
 [
   {
+    "id": 59,
+    "tag": "🏛️ 行政・社会",
+    "title": "未来の自分をサポート！社会復帰の支援について",
+    "summary": "社会復帰促進の取り組みが進行中。若者を含む全ての人が活躍できる社会を目指しています。",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76702.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 58,
     "tag": "🏛️ 行政・社会",
     "title": "上野大臣が会見を開催！",
@@ -1061,28 +1083,6 @@
     "title": "今後の働き方を語ろう！",
     "summary": "働く人の未来に関する会議が開かれました。労働市場の動向や制度についての議論が進められています。",
     "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_75128.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "tag": "🏛️ 行政・社会",
-    "title": "がん登録を強化する会議が開催！",
-    "summary": "厚生科学審議会ががんの登録について話し合う会議を開き、がん治療を支えるための取り組みを進めています。",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_75738.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
