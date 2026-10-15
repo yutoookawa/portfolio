@@ -1,5 +1,27 @@
 [
   {
+    "id": 61,
+    "tag": "🏛️ 行政・社会",
+    "title": "キャリアコンサルタント講習が中止！",
+    "summary": "令和8年11月に予定されていたキャリアコンサルタント養成講習の申請説明会が中止になったよ。詳細はリンクをチェック！",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/jinzaikaihatsu/koushu_jisshi.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 60,
     "tag": "🏛️ 行政・社会",
     "title": "次の働き方を考える！労働条件議論の最新情報",
@@ -1061,28 +1083,6 @@
     "title": "就職活動の最新ニュース！",
     "summary": "令和8年7月の一般職業紹介状況が発表されました。求人数は増加し、求職者にとってチャンスが広がっています。",
     "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_75707.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "tag": "🏛️ 行政・社会",
-    "title": "環境に優しい！ペーパーレス会議開催",
-    "summary": "第91回労働政策審議会が雇用環境や均等についてペーパーレスで開かれます。デジタル化推進中！",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_75767.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
