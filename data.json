@@ -1,5 +1,27 @@
 [
   {
+    "id": 62,
+    "tag": "🏛️ 行政・社会",
+    "title": "医療機器って何？ 最新情報をチェックしよう！",
+    "summary": "医療機器や体外診断薬について話し合う会議が開かれます。新しい技術や製品がどう進化しているか、情報をキャッチしよう！",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76766.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 61,
     "tag": "🏛️ 行政・社会",
     "title": "キャリアコンサルタント講習が中止！",
@@ -1061,28 +1083,6 @@
     "title": "医療費の動向をチェック！令和7年度版",
     "summary": "令和7年度の調剤医療費の最新情報が発表されました。健康保険の使い方や医療費の支出の傾向について知ろう！",
     "sourceUrl": "https://www.mhlw.go.jp/topics/medias/year/25/gaiyou.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "tag": "🏛️ 行政・社会",
-    "title": "就職活動の最新ニュース！",
-    "summary": "令和8年7月の一般職業紹介状況が発表されました。求人数は増加し、求職者にとってチャンスが広がっています。",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_75707.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
