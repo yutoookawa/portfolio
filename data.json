@@ -1,5 +1,27 @@
 [
   {
+    "id": 65,
+    "tag": "🏛️ 行政・社会",
+    "title": "11月17日は世界さい帯血の日！",
+    "summary": "11月17日は、さい帯血の重要性を知ろうという日です。みんなの健康に役立つ研究が進んでいます。",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/htcp-topics-20261001_00001.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 64,
     "tag": "🏛️ 行政・社会",
     "title": "医療機器の未来を考えよう！",
@@ -1061,28 +1083,6 @@
     "title": "リビアと手を組んだ！",
     "summary": "日本の厚生労働省がリビア国保健省と協力することに決まったよ。健康の分野での助け合いが進むみたい！",
     "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_75921.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "tag": "🏛️ 行政・社会",
-    "title": "調剤医療費の最新トレンドをチェックしよう！",
-    "summary": "令和7年度版の調剤医療費のデータが発表されたよ。最新の動向を知って、医療費の仕組みを理解しよう！",
-    "sourceUrl": "https://www.mhlw.go.jp/topics/medias/year/25/gaiyou.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
