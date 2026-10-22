@@ -1,5 +1,27 @@
 [
   {
+    "id": 68,
+    "tag": "🏛️ 行政・社会",
+    "title": "上野大臣の最新情報！",
+    "summary": "上野厚生労働大臣が閣議後に記者会見を開くことが発表されました。詳細は公式サイトでチェック！",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76909.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 67,
     "tag": "🏛️ 行政・社会",
     "title": "健康支援の新たな取り組みがスタート！",
@@ -1061,28 +1083,6 @@
     "title": "キャリアの未来を考えよう！",
     "summary": "キャリアコンサルタントの登録制度についての会議が開かれたよ。若者の就職支援がもっと良くなるかも！",
     "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_75979.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 18,
-    "tag": "🏛️ 行政・社会",
-    "title": "戦争の歴史を知ろう！戦没者慰霊事業のお知らせ",
-    "summary": "来年9月に戦没者を慰霊するイベントが行われるよ。過去を振り返って、平和の大切さを考える機会にしよう！",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_75941.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
