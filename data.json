@@ -1,5 +1,27 @@
 [
   {
+    "id": 69,
+    "tag": "🏛️ 行政・社会",
+    "title": "キャリアコンサルタントって何？",
+    "summary": "第33回の会議が開かれ、若者向けのキャリア相談や支援について話し合われたよ。興味があればチェックしてみてね！",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76925.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 68,
     "tag": "🏛️ 行政・社会",
     "title": "上野大臣の最新情報！",
@@ -1061,28 +1083,6 @@
     "title": "血液の正しい使い方を話し合う会議！",
     "summary": "薬事審議会が血液製品の適正使用について意見を交換した会議の内容を紹介。安全な血液利用を目指す！",
     "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_75447.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 19,
-    "tag": "🏛️ 行政・社会",
-    "title": "キャリアの未来を考えよう！",
-    "summary": "キャリアコンサルタントの登録制度についての会議が開かれたよ。若者の就職支援がもっと良くなるかも！",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_75979.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
