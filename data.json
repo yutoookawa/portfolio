@@ -1,5 +1,27 @@
 [
   {
+    "id": 76,
+    "tag": "🏛️ 行政・社会",
+    "title": "みんなの情報を守るために！",
+    "summary": "不正アクセスが増えているから、みんなも個人情報をしっかり守ろう！セキュリティ対策を見直してね。",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/kinkyu/20261030.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 75,
     "tag": "🏛️ 行政・社会",
     "title": "上野大臣が新情報を発表！",
@@ -1061,28 +1083,6 @@
     "title": "化学物質の管理を考える会議が開催！",
     "summary": "化学物質の安全な管理について専門家が集まって話し合った会議の内容を公開しました。",
     "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76185.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "tag": "🏛️ 行政・社会",
-    "title": "臓器移植を考えるチャンス！",
-    "summary": "第27回臓器移植推進国民大会が開催され、臓器移植の重要性や理解を深める機会です。あなたも参加してみよう！",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76084.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
