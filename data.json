@@ -1,5 +1,27 @@
 [
   {
+    "id": 81,
+    "tag": "🏛️ 行政・社会",
+    "title": "令和8年の人口動態、どうなってる？",
+    "summary": "2026年6月の日本の人口動態が発表され、出生数や死亡数などのデータが報告されました。若者にとっても将来の社会を考えるきっかけに！",
+    "sourceUrl": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/geppo/m2026/06.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 80,
     "tag": "🏛️ 行政・社会",
     "title": "歯科衛生士の未来を考えよう！",
@@ -1061,28 +1083,6 @@
     "title": "成年後見制度を学ぶチャンス！",
     "summary": "第22回成年後見制度利用促進専門家会議が開催されます。この制度について学ぶ良い機会です！",
     "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76199.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 31,
-    "tag": "🏛️ 行政・社会",
-    "title": "第125回コーデックス連絡協議会が開催！",
-    "summary": "食品の安全性や品質を話し合うコーデックス連絡協議会が開催されるよ。みんなの食生活に関わる重要な会議なんだ。",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76212.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
