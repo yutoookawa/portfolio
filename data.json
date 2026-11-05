@@ -1,5 +1,27 @@
 [
   {
+    "id": 82,
+    "tag": "🏛️ 行政・社会",
+    "title": "上野大臣が最新の政府対策を発表！",
+    "summary": "上野厚生労働大臣が閣議後の記者会見で、今の政府の動きや政策について話すよ！詳しくはリンクをチェック！",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_77204.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 81,
     "tag": "🏛️ 行政・社会",
     "title": "令和8年の人口動態、どうなってる？",
@@ -1061,28 +1083,6 @@
     "title": "厚生労働大臣の記者会見のお知らせだよ！",
     "summary": "上野厚生労働大臣が閣議後に記者会見を開くことが決定したよ。詳しい内容は公式サイトでチェックしてね。",
     "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76306.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 32,
-    "tag": "🏛️ 行政・社会",
-    "title": "成年後見制度を学ぶチャンス！",
-    "summary": "第22回成年後見制度利用促進専門家会議が開催されます。この制度について学ぶ良い機会です！",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76199.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
