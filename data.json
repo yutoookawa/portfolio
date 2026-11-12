@@ -1,5 +1,27 @@
 [
   {
+    "id": 89,
+    "tag": "🏛️ 行政・社会",
+    "title": "上野大臣が記者会見を開くよ！",
+    "summary": "上野厚生労働大臣が閣議後に記者会見を行うことになった。新しい政策や重要な情報が発表される予定だから、注目してね！",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_77378.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 88,
     "tag": "🏛️ 行政・社会",
     "title": "医薬品の安全をしっかり守ろう！",
@@ -1061,28 +1083,6 @@
     "title": "UHCHの決め事会議が開催！",
     "summary": "UHCHナレッジハブの第四回調整委員会が開かれ、健康や福祉の向上に向けた新しい計画が話し合われました。",
     "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76368.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 39,
-    "tag": "🏛️ 行政・社会",
-    "title": "医薬情報のドラマ、WOWOWで放送決定！",
-    "summary": "WOWOWが「連続ドラマW MR -医薬情報担当者-」を放送します。医療の裏話や患者との関わりなど、リアルな医療の世界をドラマで楽しもう！",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76340.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
