@@ -1,5 +1,27 @@
 [
   {
+    "id": 90,
+    "tag": "🏛️ 行政・社会",
+    "title": "Microsoft365が落ちた！何が起こったの？",
+    "summary": "Microsoft365が大規模に障害発生中！メールやアプリが使えなくて困った人が続出。詳細は公式サイトでチェック！",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/kinkyu/20261113.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 89,
     "tag": "🏛️ 行政・社会",
     "title": "上野大臣が記者会見を開くよ！",
@@ -1061,28 +1083,6 @@
     "title": "国民健康保険の新しい調査システム登場！",
     "summary": "国民健康保険の実態を把握するための新しい報告システムがスタート。健康保険についての情報を集めて、皆の健康を守るために役立てるよ！",
     "sourceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/iryouhoken/database/seido/kokuho_jittai_system.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 40,
-    "tag": "🏛️ 行政・社会",
-    "title": "UHCHの決め事会議が開催！",
-    "summary": "UHCHナレッジハブの第四回調整委員会が開かれ、健康や福祉の向上に向けた新しい計画が話し合われました。",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76368.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
