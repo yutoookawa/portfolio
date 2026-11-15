@@ -1,5 +1,27 @@
 [
   {
+    "id": 92,
+    "tag": "🏛️ 行政・社会",
+    "title": "Microsoft365がやられた！",
+    "summary": "Microsoft365に大規模な障害が発生し、多くのユーザーが影響を受けました。困っている人が続出しています。",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/kinkyu/20261113.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 91,
     "tag": "🏛️ 行政・社会",
     "title": "Microsoft365が大ピンチ！",
@@ -1060,28 +1082,6 @@
     "tag": "🏛️ 行政・社会",
     "title": "国民健康保険の実態を調べる新システム登場！",
     "summary": "国民健康保険の現状を把握するための新しい報告システムが始まりました。このシステムは、皆の健康保険の情報を集め、より良いサービスを提供するために役立ちます。",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/iryouhoken/database/seido/kokuho_jittai_system.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 42,
-    "tag": "🏛️ 行政・社会",
-    "title": "国民健康保険の実態を知ろう！",
-    "summary": "国民健康保険の現状を調べる新しいシステムができました。みんなの健康を守るための大事な情報です！",
     "sourceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/iryouhoken/database/seido/kokuho_jittai_system.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
