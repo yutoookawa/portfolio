@@ -1,5 +1,27 @@
 [
   {
+    "id": 97,
+    "tag": "🏛️ 行政・社会",
+    "title": "エボラ対策を強化する訓練を実施！",
+    "summary": "厚生労働省が、エボラ出血熱などの感染症に備えるための訓練を令和8年度に行うよ。これで危機管理をバッチリ強化！",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_77581.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 96,
     "tag": "🏛️ 行政・社会",
     "title": "上野大臣が大事な発表！",
@@ -1061,28 +1083,6 @@
     "title": "国民健康保険の実態調査知らないと損する情報！",
     "summary": "国民健康保険の実態を知るための新しい報告システムが登場！これを利用して、保険の利用状況や改善点を把握しよう！",
     "sourceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/iryouhoken/database/seido/kokuho_jittai_system.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 47,
-    "tag": "🏛️ 行政・社会",
-    "title": "説明会情報が新しくなったよ！",
-    "summary": "総合職（数理・デジタル系）の説明会情報が更新されました。詳細は公式サイトでチェックしよう！",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/suuri.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
