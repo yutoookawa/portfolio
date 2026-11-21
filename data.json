@@ -1,5 +1,27 @@
 [
   {
+    "id": 98,
+    "tag": "🏛️ 行政・社会",
+    "title": "エボラ対策の訓練を実施！",
+    "summary": "厚生労働省がエボラ出血熱の対策訓練をすることになったよ。感染症に備えて、みんなの健康を守るための準備を進めてるんだ。",
+    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_77581.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 97,
     "tag": "🏛️ 行政・社会",
     "title": "エボラ対策を強化する訓練を実施！",
@@ -1060,28 +1082,6 @@
     "tag": "🏛️ 行政・社会",
     "title": "国民健康保険の実態を把握しよう！",
     "summary": "国民健康保険についての実態調査の結果をまとめたシステムができたよ！健康に関するデータを見て、保険の改善に役立てるんだ。",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/iryouhoken/database/seido/kokuho_jittai_system.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 48,
-    "tag": "🏛️ 行政・社会",
-    "title": "国民健康保険の実態調査知らないと損する情報！",
-    "summary": "国民健康保険の実態を知るための新しい報告システムが登場！これを利用して、保険の利用状況や改善点を把握しよう！",
     "sourceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/iryouhoken/database/seido/kokuho_jittai_system.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
