@@ -1,5 +1,27 @@
 [
   {
+    "id": 101,
+    "tag": "🏛️ 行政・社会",
+    "title": "2026年9月の働き方の実態は？",
+    "summary": "2026年9月の勤労統計調査の結果が発表されました。労働時間や賃金の変化についての詳細がまとめられています。",
+    "sourceUrl": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r08/2609r/2609r.html",
+    "sourceName": "厚生労働省 公式サイトで詳細を見る",
+    "options": [
+      {
+        "text": "良いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "悪いと思う！",
+        "votes": 0
+      },
+      {
+        "text": "分からない",
+        "votes": 0
+      }
+    ]
+  },
+  {
     "id": 100,
     "tag": "🏛️ 行政・社会",
     "title": "みんなの食べる肉、安心してる？",
@@ -1061,28 +1083,6 @@
     "title": "臓器移植について話し合う会議が開催！",
     "summary": "厚生科学審議会で臓器移植に関する大事な会議が行われます。若者の意見も大切にされるかも。",
     "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76092.html",
-    "sourceName": "厚生労働省 公式サイトで詳細を見る",
-    "options": [
-      {
-        "text": "良いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "悪いと思う！",
-        "votes": 0
-      },
-      {
-        "text": "分からない",
-        "votes": 0
-      }
-    ]
-  },
-  {
-    "id": 51,
-    "tag": "🏛️ 行政・社会",
-    "title": "法令情報、みんなに知ってほしい！",
-    "summary": "新しい法令や通知の情報をお知らせ。若者にも関連する内容があるので、ぜひチェックしてみて！",
-    "sourceUrl": "https://www.mhlw.go.jp/stf/newpage_76430.html",
     "sourceName": "厚生労働省 公式サイトで詳細を見る",
     "options": [
       {
